@@ -3,22 +3,164 @@
   <head>
     <title>Gimnasio Cristiano Shekinah</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-  	
-  	<font color="red" size="4">
-      <marquee>
 
-      	"LA PRESENCIA PERMANENTE DEL TODO PODEROSO DIOS"
-         "APRENDO, APLICO Y SOBRE VALORES, PROYECTO EL ÉXITO EN MI VIDA Y EN EL ENTORNO DONDE ME ENCUENTRE"
+    <div class="top">
+      <marquee>"LA PRESENCIA PERMANENTE DEL TODO PODEROSO DIOS" "APRENDO, APLICO Y SOBRE VALORES, PROYECTO EL ÉXITO EN MI VIDA Y EN EL ENTORNO DONDE ME ENCUENTRE"</marquee>
+    </div>
 
-       </marquee>
-    </font>
+      <div id="slider" class="my-slider">
+        <ul>
+          <li>
+            <img src="https://i.ytimg.com/vi/Rr5Vb66e8t8/maxresdefault.jpg" alt="">
+          </li>
+          <li>
+            <img src="https://i.ytimg.com/vi/Rr5Vb66e8t8/maxresdefault.jpg" alt="">
+          </li>
+          <li>
+            <img src="https://i.ytimg.com/vi/Rr5Vb66e8t8/maxresdefault.jpg" alt="">
+          </li>
+        </ul>
+      </div>
+
+      <nav class="navbar navbar-own">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-8" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-8">
+            <ul class="nav navbar-nav">
+              <li class="active">
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="#">Link</a>
+              </li>
+              <li>
+                <a href="#">Link</a>
+              </li>
+              <li>
+                <a href="#">Link</a>
+              </li>
+              <li>
+                <a href="#">Link</a>
+              </li>
+              <li>
+                <a href="#">Link</a>
+              </li>
+              <li>
+                <a href="#">Link</a>
+              </li>
+              <li>
+                <a href="#">Link</a>
+              </li>
+              <li>
+                <a href="#">Link</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="content-own">
+              <h3 class="titulo">Matriculas Abiertas</h3>
+              <ul class="content-own-ul">
+                <li>
+                  <p>Horario de 9:00 a.m. - 2 p.m.</p>
+                </li>
+                <li>
+                  <p>Horario de 9:00 a.m. - 2 p.m.</p>
+                </li>
+                <li>
+                  <p>Horario de 9:00 a.m. - 2 p.m.</p>
+                </li>
+                <li>
+                  <p>Horario de 9:00 a.m. - 2 p.m.</p>
+                </li>
+              </ul>
+              <p>No hay bono</p>
+              <ul class="content-own-ul">
+                <li>
+                  <p>Horario de 9:00 a.m. - 2 p.m.</p>
+                </li>
+                <li>
+                  <p>Horario de 9:00 a.m. - 2 p.m.</p>
+                </li>
+              </ul>
+              <p><a href="#">Leer más</a></p>
+              <hr>
+              <h3 class="titulo">Nivel superior</h3>
+              
+              <p>Los resultados del Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore facilis ipsap</p>
+
+              <p>nesciunt fugiat quos, repellat quasi nulla laboriosam, dolore iure at aperiam voluptates obcaecati vel amet enim, alias magnam excepturi.</p>
+              <hr>
+
+              <h3 class="titulo">Por un mundo mejor</h3>
+              
+              <p>Los resultados del Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore facilis ipsap</p>
+            </div>
+          </div>
+
 
     <%= yield %>
+
+    </div>
+  </div>
+
+     <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4 class="titulo">Gimnasio Cristiano Shekinah</h4>
+              <div class="linea"></div>
+              <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit"</p>
+            </div>
+
+            <div class="col-md-4">
+              <h4 class="titulo">Contactenos</h4>
+              <div class="linea"></div>
+              <p>
+                <strong>Gimnasio Cristiano Shekinah</strong><br>
+                <span>Carrera 14 A Nº 70-82</span>
+              </p>
+
+              <p>
+                <span>Carrera 14 A Nº 70-82</span><br>
+                <span>Carrera 14 A Nº 70-82</span><br>
+                <span>Carrera 14 A Nº 70-82</span>
+              </p>
+            </div>
+
+            <div class="col-md-4">
+              <h4 class="titulo">Más información</h4>
+              <div class="linea"></div>
+              <ul class="content-own-ul">
+                <li>Home</li>
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
+                <li>Link</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="jquery-1.11.2.min.js"><\/script>')</script>
+
   </body>
 </html>

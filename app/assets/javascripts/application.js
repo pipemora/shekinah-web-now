@@ -10,7 +10,13 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require unslider
+//=	require jquery-1.11.2.min
+//=	require modernizr-2.8.3-respond-1.4.2.min
+//= require main
+//= require bootstrap.min
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
