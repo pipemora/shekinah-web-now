@@ -3,14 +3,12 @@ Rails.application.routes.draw do
   get 'static_pages/about'
   
   get  'contacto' => 'static_pages#contact'
-
-  get 'static_pages/metodology'
-
-  get 'static_pages/our'
-
+  get  'historia' => 'static_pages#history'
+  get  'preescolar' => 'static_pages#prescolar'
+	get  'pei' => 'static_pages#our'
+	get  'metodologia' => 'static_pages#metodology'
+ 
   get 'static_pages/service'
-
-  get 'static_pages/prescolar'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get  'historia' => 'static_pages#history'
